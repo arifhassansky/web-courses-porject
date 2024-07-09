@@ -8,6 +8,16 @@ body {
   font-family: "Azeret Mono", monospace;
 }
 
+/* Shared styles */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 154px;
+  margin-bottom: 154px;
+}
+
 /* Banner style start */
 
 header {
@@ -37,8 +47,93 @@ header {
   font-size: 20px;
   font-weight: 600;
   color: white;
+  cursor: pointer;
   border: none;
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
 /* Banner style end */
+
+/* Coding style start */
+
+.development {
+  background: #fafafb;
+}
+.development-header {
+  text-align: center;
+}
+
+.development-header h2 {
+  margin-top: 80px;
+  font-size: 32px;
+  font-weight: 800;
+}
+.development-header p {
+  margin-top: 24px;
+  opacity: 0.7;
+  line-height: 26px;
+}
+.coding {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+.coding-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.coding-description {
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.coding-btn {
+  padding: 12px 20px 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: aliceblue;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.coding-img {
+  width: 259.56px;
+  height: 217.01px;
+}
+#second-coding-content {
+  margin-right: 250px;
+}
+#coding-second-div {
+  margin-top: 148px;
+}
+#coding-third-div {
+  margin-top: 148px;
+}
+/* Coding style end*/
+
+/* Inspiration section start */
+.inspiration-content {
+  text-align: center;
+}
+.inspiration-content h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.inspiration-content p {
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 80px;
+}
+.inspiration-video {
+  text-align: center;
+  padding: 32px 0px 32px 0px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.inspiration-video iframe {
+  border-radius: 16px;
+}
+/* Inspiration section end */

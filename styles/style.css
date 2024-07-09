@@ -17,11 +17,38 @@ section {
   margin-top: 154px;
   margin-bottom: 154px;
 }
+/* Nav section style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.nav-title p {
+  font-size: 28px;
+  font-weight: 800;
+}
+.nav-btn {
+  margin-top: 38px;
+  margin-right: 146px;
+}
+.nav-btn button {
+  padding: 17px 24px 17px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+}
 
 /* Banner style start */
 
-header {
+.banner {
   height: 652px;
+  margin-top: 80px;
   background-image: url(/assets/Hero-bg.png);
 }
 .banner-container {
@@ -230,3 +257,34 @@ header {
   border-radius: 8px;
 }
 /* Support styles end */
+
+/* Footer styles start */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.fotter-content {
+  margin-left: 150px;
+}
+.fotter-content p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-images {
+  margin-right: 150px;
+}
+.footer-images a {
+  text-decoration: none;
+}
+.footer-images img {
+  width: 36px;
+  height: 36px;
+  gap: 80px;
+}
+.fb-icon,
+.git-icon {
+  margin-right: 24px;
+}
+/* Footer styles end */

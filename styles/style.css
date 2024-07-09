@@ -189,3 +189,44 @@ header {
   background-color: #fffdf2;
 }
 /* Current target section styles end */
+
+/* Support styles start */
+
+.support {
+  background-image: url(/assets/handshake.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  height: 314px;
+}
+.support-container {
+  text-align: center;
+}
+.support-header h2 {
+  color: white;
+  padding-top: 68px;
+  margin-bottom: 16px;
+}
+.support-header p {
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 36px;
+}
+.support-input input {
+  background: rgb(255, 255, 255);
+  border: none;
+  width: 548px;
+  padding: 19px 20px 19px 20px;
+  border-radius: 8px;
+  outline: none;
+}
+.support-input button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 13px 20px 18px 20px;
+  border: none;
+  border-radius: 8px;
+}
+/* Support styles end */

@@ -13,10 +13,6 @@ main {
   width: 1140px;
   margin: 0 auto;
 }
-section {
-  margin-top: 154px;
-  margin-bottom: 154px;
-}
 /* Nav section style start */
 nav {
   display: flex;
@@ -92,17 +88,18 @@ nav {
 }
 /* Banner style end */
 
-/* Coding style start */
+/* development style start */
 
 .development {
+  margin-top: 74px;
   background: #fafafb;
+  padding: 80px 97px;
 }
 .development-header {
   text-align: center;
 }
 
 .development-header h2 {
-  margin-top: 80px;
   font-size: 32px;
   font-weight: 800;
 }
@@ -149,9 +146,13 @@ nav {
 #coding-third-div {
   margin-top: 148px;
 }
-/* Coding style end*/
+
+/* development style end */
 
 /* Inspiration section start */
+.inspiration {
+  margin-top: 88px;
+}
 .inspiration-content {
   text-align: center;
 }
@@ -177,6 +178,9 @@ nav {
 /* Inspiration section end */
 
 /*Current target section styles start  */
+.current-target {
+  margin-top: 149px;
+}
 .current-target-header {
   text-align: center;
 }
@@ -229,7 +233,9 @@ nav {
 /* Current target section styles end */
 
 /* Next target section styles start */
-
+.next-target {
+  margin-top: 111px;
+}
 .next-target-header {
   text-align: center;
 }
@@ -288,6 +294,7 @@ nav {
   background-position: center;
   border-radius: 16px;
   height: 314px;
+  margin-top: 47px;
 }
 .support-container {
   text-align: center;
@@ -326,6 +333,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
+  margin-top: 79px;
 }
 .fotter-content {
   margin-left: 150px;

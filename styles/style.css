@@ -53,7 +53,7 @@ nav {
 .banner {
   height: 652px;
   margin-top: 80px;
-  background-image: url(../assets/Hero-bg.png);
+  background-image: url("../assets/Hero-bg.png");
 }
 .banner-container {
   text-align: center;
@@ -293,7 +293,7 @@ nav {
 /* Support styles start */
 
 .support {
-  background-image: url(../assets/handshake.jpg);
+  background-image: url("../assets/handshake.jpg");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   background-size: cover;
